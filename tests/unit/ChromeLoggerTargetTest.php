@@ -8,6 +8,6 @@
 class ChromeLoggerTargetTest extends \TestCase{
     
     public function testBasic () {
-        echo "picche";
+        
     }
 }
