@@ -6,8 +6,13 @@
     convertWarningsToExceptions="true"
     stopOnFailure="false">
     <testsuites>
-            <testsuite name="Yii Test Suite">
+            <testsuite name="Main Unit Test Suite">
                     <directory>./tests/unit</directory>
             </testsuite>
     </testsuites>
+    <filter>
+			<blacklist>				
+				<directory suffix=".php">tests</directory>
+			</blacklist>
+		</filter>
 </phpunit>
