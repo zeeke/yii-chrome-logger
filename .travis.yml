@@ -7,6 +7,7 @@ php:
 before_script:
   - composer self-update && composer --version
   - composer require satooshi/php-coveralls 0.6.*
+  - composer update --prefer-source
   
 script: 
   - phpunit --coverage-clover tests/unit/runtime/coveralls/clover.xml
