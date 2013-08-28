@@ -8,11 +8,17 @@
     "source": "https://github.com/zeeke/yii-chrome-logger"
   },
   "minimum-stability": "dev",
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "/home/zeeke/.tmp/reps/v4.5.0"
+            }
+        ],
   "require":      {
     "yiisoft/yii2": "*"
   },
   "autoload": {
-    "psr-0": { "extensions\\yii-chrome-logger": "" }
+    "psr-0": { "extensions\\yii-chrome-logger": "src/" }
   }
 }
 
