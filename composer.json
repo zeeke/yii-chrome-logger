@@ -1,5 +1,5 @@
 {
-  "name": "zeeke/yii-chrom-logger",
+  "name": "zeeke/yii-chrome-logger",
   "description": "Chrome Logger extension for Yii2 framework",
   "keywords": ["yii", "ChromLogger"],
   "type": "library",
